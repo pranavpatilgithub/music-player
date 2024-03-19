@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+    color:white;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.main{
+    height: 85%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    padding: 5vw 10vw;
+}
+.left{
+    width: 45%;
+    height: 100%;
+    background-color: #535353;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right{
+    width: 55%;
+    height: 100%;
+    padding: 0 3vw;
+
+}
+.right h3{
+    font-size: 20px;
+}
+.all-songs{
+    margin-top: 15px;
+}
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-top: 1px solid #535353;
+}
+.song-card:nth-last-child(1){
+    border-bottom: 1px solid #535353;
+}
+.song-card:hover{
+    background-color: #262626;
+}
+.part-1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    pointer-events: none;
+}
+.song-card img{
+    height: 55px;
+}
+.song-card h2{
+    font-size: 18px;
+}
+.song-card h6{
+    font-size: 15px;
+}
+.player{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.player h3{
+    background-color: #262626;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.player h3 i{
+    font-size: 20px;
+}
+/* click walla effect anne keliye */
+.player h3:active{
+    scale: 0.95;
+}
