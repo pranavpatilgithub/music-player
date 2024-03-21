@@ -1,0 +1,38 @@
+[
+    {
+        "logo": "./images/lie down.jpeg",
+        "name": "LIE DOWN",
+        "artist": "NUEKI, TOLCHONOV",
+        "duration": "1:11",
+        "genre": "Gym",
+        "language": "english",
+        "url": "./music/lie down.m4a"
+    },
+    {
+        "logo": "./images/gangsta's paradise.jpeg",
+        "name": "Gangsta's Paradise",
+        "artist": "COOLIO",
+        "duration": "4:03",
+        "genre": "Gym",
+        "language": "english",
+        "url": "./music/gangsta's paradise.m4a"
+    },
+    {
+        "logo": "./images/fresh(slowed).jpeg",
+        "name": "Fresh(Slowed)",
+        "artist": "NXVAMANE",
+        "duration": "1:20",
+        "genre": "Gym",
+        "language": "english",
+        "url": "./music/fresh(slowed).m4a"
+    },
+    {
+        "logo": "./images/middle of the night.jpeg",
+        "name": "Middle of the Night",
+        "artist": "Elley Duhe",
+        "duration": "3:01",
+        "genre": "Gym",
+        "language": "english",
+        "url": "./music/middle of the night.m4a"
+    }
+]
